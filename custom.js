@@ -17,13 +17,6 @@ $(document).ready(function() {
     });
 
 
-    $(document).ready(function(){
-  
-      $(".datetimeinput").datepicker({changeYear: true,changeMonth: true, dateFormat: 'yy-mm-dd'});
-     
-     
-    });
-
 
     if ($(".success")[0]){
       // alert("Item successfully created.\n Click here to receive this from vendor");
@@ -166,6 +159,13 @@ $(document).ready(function() {
       }
   });
 
+
+$(document).ready(function(){
+  
+  $(".datetimeinput").datepicker({changeYear: true,changeMonth: true, dateFormat: 'yy-mm-dd'});
+ 
+ 
+});
     // var endDate = $('#id_enddate');
     // endDate.val('2037-12-31');
     // $('#id_reorder_level').val(0);
@@ -1349,6 +1349,13 @@ $(document).ready(function() {
   (function blink() { 
     $('.blink-me').fadeOut(500).fadeIn(500, blink); 
   });
+
+   $(document).ready(function(){
+  
+      $(".datetimeinput").datepicker({changeYear: true,changeMonth: true, dateFormat: 'yy-mm-dd'});
+     
+     
+    });
 
 
 
